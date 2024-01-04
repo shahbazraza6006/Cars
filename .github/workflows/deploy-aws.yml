@@ -41,7 +41,7 @@ jobs:
           region: us-east-1
           application_name: Cars
           environment_name: Cars-env  
-          existing_bucket_name: elasticbeanstalk-us-east-1-461130657437
+          existing_bucket_name: eelasticbeanstalk-us-east-1-461130657437
           use_existing_version_if_available: true
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
