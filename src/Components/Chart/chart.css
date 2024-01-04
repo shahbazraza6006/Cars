@@ -1,0 +1,14 @@
+.chartdata{
+   height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+   margin-top: 20px;
+    background-color: aliceblue;
+    margin-left: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}

@@ -1,0 +1,49 @@
+.dashboard{
+    color: aliceblue;
+}
+.minidash{
+    color: aliceblue;
+    height: 800px;
+    width: 75%;
+    margin-left: 180px;
+    margin-top: 60px;
+    background-color: rgb(134, 224, 224);
+    border-radius: 15px;
+    align-items: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(62, 62, 83, 0.2);
+    background-image: url("../../assets/pic5.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.dashboard button{
+    display: inline-block;
+  
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow, transform;
+  background: radial-gradient(100% 100% at 100% 0%, #59c2df 0%, #8995e4 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -3px 0px rgb(58 65 111 / 50%);
+  padding: 0 32px;
+  margin-left: 10px;
+  border-radius: 6px;
+  color: #fff;
+  height: 38px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+   gap: 20px;
+  justify-content: space-between;
+}
+.dashboard button:hover{
+    background-color: #006969;
+    box-shadow: 1px 1px #006969;
+    border-radius: 4px;
+    cursor: pointer;
+}

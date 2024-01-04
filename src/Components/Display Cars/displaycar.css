@@ -1,0 +1,118 @@
+.carsshow h1{
+   margin-left: 44%;
+   color: #fff;
+   
+}
+
+.displaycar{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60px;
+    
+}
+.card-image img{
+    height: 300px;
+    width: 300px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(134, 165, 151);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(62, 62, 83, 0.2);
+    /* background-image: url("../../assets/pic5.jpg"); */
+    background-position: center;
+    background-size: cover;
+    position: relative;display: flex;
+    flex-direction: column;
+
+}
+.card:hover{
+    box-shadow: 12px 12px 2px 1px rgba(55, 55, 136, 0.6);
+}
+.carsflex{
+    display: flex;
+    gap: 20px;
+}
+.card-content{
+    height: 300px;
+    width: 300px;
+    background-image: url("../../assets/pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(196, 219, 219);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(62, 62, 83, 0.2);
+    
+}
+.card-content p{
+    margin-top: -1px;
+    margin-left: 10px;
+}
+.card-content h6{
+    margin-top: -1px;
+    font-size: 15px;
+}
+.card-content h3{
+    margin-top: -1px;
+    
+}
+.card-content button{
+    display: inline-block;
+  
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow, transform;
+  background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -3px 0px rgb(58 65 111 / 50%);
+  padding: 0 32px;
+  border-radius: 6px;
+  color: #fff;
+  margin-left: 10px;
+  height: 38px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+   gap: 20px;
+  justify-content: space-between;
+}
+.card-content button:hover{
+    background-color: #006969;
+    box-shadow: 1px 1px #006969;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+    
+}
+.pagination button{
+    background-color: #006969;
+    box-shadow: 1px 1px #006969;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    margin: 16px;
+    text-decoration: none;
+}
+.pagination button:hover{
+    background-color: #fff;
+    color: #006969;
+    box-shadow: 1px 1px #006969;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 16px;
+    text-decoration: none;
+}

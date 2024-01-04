@@ -1,0 +1,99 @@
+.signup{
+    height: 750px;
+  width: 800px;
+  margin-left: 450px;
+  margin-top: 60px;
+  background-color: rgb(47, 53, 50);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  text-align: center;
+  background-image: url("../../assets/pic2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+}
+.signup a {
+    font-weight: bold;
+    color: #096ba3; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  .signup a:hover {
+    color: #eaf0ee;
+  }
+  
+  .signup h1 {
+    font-size: 30px;
+    color: #04598a;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .signup input::placeholder {
+    color: #04598a;
+    font-weight: bold;
+  }
+  
+  .signup input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 50%;
+    padding: 8px 0 5px 0;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #080808;
+    transition: border-bottom-color 0.3s, color 0.3s; /* Add transition effects */
+  }
+  
+  .signup input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #925b55;
+    animation: input-focus-animation 0.3s forwards; /* Add animation */
+  }
+  
+  @keyframes input-focus-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .signup button {
+    display: inline-block;
+    margin-top: 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%),
+      inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  .signup button:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+  }
+  .signup button :active {
+    box-shadow: inset 0px 3px 7px #7a86dd;
+    transform: translateY(2px);
+  }
+  

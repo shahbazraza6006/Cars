@@ -1,0 +1,78 @@
+.addformss{
+    height: 600px;
+    width: 500px;
+   ;
+    margin-top: 60px;
+    background-color: rgb(135, 138, 136);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(62, 62, 83, 0.2);
+    background-image: url("../../assets/pic7.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.addformss label{
+    color: bisque;
+}
+.addformss input{
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(179, 190, 185);
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(47, 53, 50);
+    translate: (100%, 100%);
+    align-items: center;
+}
+.addformss h2{
+    color: aliceblue;
+    margin-top: 30px;
+ 
+}
+
+.addformss button{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(67, 70, 68);
+    color: rgb(243, 232, 232);
+    box-shadow: rgb(47, 53, 50);
+    translate: (100%, 100%);
+}
+.addformss button:hover{
+    background-color: rgb(47, 53, 50);
+    color: aliceblue;
+    box-shadow: rgb(47, 53, 50);
+    translate: (100%, 100%);
+    cursor: pointer;
+}
+
+  .addformss img{
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 200px;
+  }
+
+
+.error{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
